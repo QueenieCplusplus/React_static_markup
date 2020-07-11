@@ -20,6 +20,8 @@ var KsComponent = React.createClass({
 // 資料格式變成如下
 // reactID 幫助 react 找到 DOM 位置
 // 方便更新屬性和值
+// 校驗碼只會增加至伺服器
+
 
 <div
     data-reactid = ".doklhpds"
