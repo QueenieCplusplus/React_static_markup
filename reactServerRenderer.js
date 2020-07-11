@@ -1,4 +1,4 @@
-// 2020. 11/7, am 5:25
+// 2020. 11/7, pm 5:25 - 5:40 (duration: 15 mins)
 // DOM is not support in Server, due to location not exist Server.
 // only support Serializable data.
 // Sync & BlockIO
