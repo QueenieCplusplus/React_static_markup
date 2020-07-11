@@ -11,12 +11,15 @@ react 伺服器端渲染函式
 
     renderToString()
     //同步字串
+    //輸出會有 reactid 和 
 
 蠢作法是 react 銷毀伺服器提供的 實體 DOM 並生成 react 自己的虛擬 DOM 節點並且附加入文件物件中。所以如上是同步渲染函數，可以進行很重要的事情，這攸關到性能表現！
 
 
     renderToStaticMarkup()
     //靜態標記
+    //單行輸出
+    //輸出不會有屬性 reactid
     
 作法是 react 銷毀伺服器提供的 實體 DOM 並生成 react 自己的虛擬 DOM 節點並且附加入文件物件中。
 
