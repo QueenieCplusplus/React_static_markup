@@ -7,7 +7,7 @@ react 伺服器端渲染函式
 
 # Checksum 校驗
 
-使用 data-react-checksum 匹配，幫助 react 在伺服器和客戶端兩者每次渲染屬性的初始結果都會一致。
+使用 data-react-checksum 匹配，幫助 react 在伺服器和客戶端兩者每次渲染屬性的初始結果都會一致，將應用程式的初始狀態傳給用戶端。
 
     renderToString()
     //同步字串
