@@ -5,7 +5,7 @@ const { useReducer } = require("react");
 
 var VIPmember = React.createClass({
 
-    // async state getter
+    // (2) async state getter
     // 將非同步資料儲存起來
     statics:{
 
@@ -44,7 +44,7 @@ var VIPmember = React.createClass({
         if(!this.state.initialState){this.updateAsyncState();}
 
         // 開啟監聽器
-        // 監聽用戶端變化
+        // (3) 監聽用戶端變化
         User.on('change', this.updateAsyncState);
 
     },
@@ -56,7 +56,7 @@ var VIPmember = React.createClass({
 
     },
 
-    // 非同步資料取得方式
+    // (1) 非同步資料取得方式
     updateAsyncState: function(){
 
         // 實作中獲取非同步狀態
@@ -90,7 +90,7 @@ VIPmember.getAsyncState(state, funtion(initialState){
 
     state[initialState] = initialState;
     var result = React.renderToString(VIPmember(state));
-    // 優化 SEO
+    // (4) 優化 SEO
     // 伺服器端顯示資料函數
     // 結果同步回傳給使用者
 
