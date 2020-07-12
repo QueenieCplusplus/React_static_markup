@@ -1,4 +1,4 @@
-# React_static_markup
+# React static markup
 react 伺服器端渲染函式
 
 # Life Cycle 生命週期
