@@ -1,5 +1,5 @@
 # React static markup
-react 伺服器端渲染函式
+react 伺服器端渲染函式，靜態標記 static markup 與同步字串 render to string
 
 # Life Cycle 生命週期
 
