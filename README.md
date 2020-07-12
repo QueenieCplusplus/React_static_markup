@@ -22,6 +22,8 @@ react 伺服器端渲染函式，靜態標記 static markup 與同步字串 rend
     //適用於測試元件或是電子郵件
     //輸出不會有屬性 reactid
     
+ 用於測試元件或是電子郵件 https://github.com/QueenieCplusplus/React_email/blob/master/README.md#send-email
+    
 作法是 react 銷毀伺服器提供的 實體 DOM 並生成 react 自己的虛擬 DOM 節點並且附加入文件物件中。
 
 如上兩則函數使 react 能夠在 Nodejs 這種非瀏覽器的環境下運作。
